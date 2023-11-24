@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Murachy</title>
+</head>
+<body>
+    <h1 id="header">Skin Upgrade</h1>
+    <div id="itemContainer">
+        <img src="./img/AK47.jpg" id="itemImage" alt="AK47">
+        <div id="itemInfoBlock">
+            <h4 id="name">Name: </h4>
+            <span id="prise">Prise: </span>
+            <span id="rare">Rate: </span>
+        </div>
+    </div>
+    <div id="ButtonCofContainer">
+        <button id="cof1" onclick="getCof1()">X1</button>
+        <button id="cof2" onclick="getCof2()">X2</button>
+        <button id="cof3" onclick="getCof3()">X5</button>
+        <button id="cof4" onclick="getCof4()">X10</button>
+        <span id="cofShow">Cof is: </span>
+    </div>
+    <span id="cnangeToWin">Your change to win is: </span>
+    <div id="startContainer">
+        <button id="startButton" onclick="mainProces(mainCof)">Start</button>
+    </div>
+    <div id="resultContainer">
+        <span id="result">You: </span>
+        <button id="chekItem" onclick="inputItemDescription(itemArray,resultForUpdate)">Chek your item</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
